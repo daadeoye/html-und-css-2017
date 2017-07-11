@@ -1,24 +1,48 @@
 body {
-  background: #21252b;
-  font-family: "Acumin Pro"
+  background: #ededed;
+  font-family: serenity, Arial, sans-serif;
 }
 
-a {
-  color: #0bb783}
+/* Font Styles */
 
-h2{
-  line-height: 3px;
-  color: #CEBE2F;
-  font-size: 30px;
-  padding-left: 300px}
+/*.categories {
+  text-decoration: none;
+  font-size: 30pt;
+  font-weight: bold;
+  border: 2px solid red;
+  display: inline;
+  width: 100%;
+  color: #1f1f1f;
+  text-align: center;
+}*/
 
-h3{}
-p{
-  text-align: left;
-  padding-left: 300px;}
+.categories {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 80%;
+  text-decoration: none;
+  font-size: 44pt;
+  font-weight: bold;
+  color: #1f1f1f;
+}
 
-.test {
-  color: #0bb783;
-  text-align: left;
-  padding: 20px;
-  padding-left: 300px}
+.all {
+  background-color: rgba(50, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1
+}
+
+.logo {
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+
+}
