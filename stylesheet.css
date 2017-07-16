@@ -3,31 +3,31 @@ body {
   font-family: serenity, Arial, sans-serif;
 }
 
-/* Font Styles */
-
-/*.categories {
-  text-decoration: none;
-  font-size: 30pt;
-  font-weight: bold;
-  border: 2px solid red;
-  display: inline;
-  width: 100%;
-  color: #1f1f1f;
-  text-align: center;
-}*/
+/* Start */
 
 .categories {
   position: fixed;
   width: 100%;
   text-align: center;
-  top: 80%;
+  top: 60%;
   text-decoration: none;
-  font-size: 44pt;
+  font-size: 120pt;
   font-weight: bold;
   color: #1f1f1f;
 }
 
-.all {
+#name {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 100pt;
+  font-weight: 500;
+  color: #1f1f1f;
+  position: relative;
+  border: 2px solid red;
+  }
+
+/* .all {
   background-color: rgba(50, 0, 0, 0.5);
   width: 100%;
   height: 100%;
@@ -35,14 +35,45 @@ body {
   top: 0;
   right: 0;
   z-index: -1
-}
+} */
+
+.content_start {
+    border: 2px solid red;
+    height: 95%;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    }
 
 .logo {
   border: 2px solid red;
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  top: 50%;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  position: relative;
+  padding-top: inherit;
+  padding-bottom: inherit;
+}
 
+/* Home*/
+
+.content_home {
+    border: 2px solid red;
+    height: 95%;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+.header {
+  border: 2px solid red;
+  width: 100%;
+  height: 80px;
 }
