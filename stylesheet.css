@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-size: 120pt;
+  font-size: 12vmin;
   font-weight: bold;
   color: #1f1f1f;
 }
@@ -27,12 +27,14 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-size: 12vmin;
-  /*font-size: 100pt*/
+  /*font-size: 100pt;*/
   font-weight: 500;
   color: #1f1f1f;
-  position: relative;
   border: 2px solid red;
-  }
+  display: block;
+  top: 10vw;
+  position: relative;
+}
 
 /* .all {
   background-color: rgba(50, 0, 0, 0.5);
@@ -51,7 +53,7 @@ h1 {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 7.1vw;
     }
 
 .logo {
@@ -82,40 +84,111 @@ h1 {
 }
 
 .nav_work {
-  font-size: 40pt;
+  font-size: 7vmin;
   font-weight: 400;
   position: absolute;
   top: 45px;
-  left: 15px;
+  left: 1vw;
   transform: rotate(-90deg);
   text-decoration: none;
-  color: #1f1f1f;
+  color: #183C37;
+}
+
+.nav_me {
+  font-size: 7vmin;
+  font-weight: 400;
+  position: absolute;
+  top: 45px;
+  left: 2vw;
+  transform: rotate(-90deg);
+  text-decoration: none;
+  color: #183C37;
 }
 
 .nav_contact {
-  font-size: 40pt;
+  font-size: 7vmin;
   font-weight: 400;
   position: absolute;
-  bottom: 95px;
+  bottom: 6vw;
   right: 0px;
   transform: rotate(90deg);
   text-decoration: none;
-  color: #1f1f1f;
+  color: #183C37;
 }
+
+.me_home {
+    border: 2px solid red;
+    display: block;
+    top: 4vw;
+    width: 44vw;
+    height: 10vw;
+    right: 5vw;
+    position: relative;
+    float: right;
+    font-size: 10vmin;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+.contact_home {
+  border: 2px solid red;
+  display: block;
+  clear: both;
+  width: 20vw;
+  height: 7.1vw;
+  right: 2vw;
+  top: 13vw;
+  position: relative;
+  float: right;
+  font-size: 10vmin;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.work_home {
+  border: 2px solid red;
+  display: block;
+  clear: both;
+  top: 14vw;
+  width: 20vw;
+  height: 10vw;
+  left: 4vw;
+  position: relative;
+  float: left;
+  font-size: 10vmin;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.work_categories {
+  border: 2px solid red;
+  top: 5vw;
+  width: 44vw;
+  height: 30vw;
+  right: 3.5vw;
+  position: relative;
+  float: right;
+  clear: both;
+  font-size: 10vmin;
+  font-weight: 400;
+  text-decoration: none;
+  list-style-type: none;
+  }
 
 /* Home*/
 
 .content_home {
-    border: 2px solid red;
-    height: 95%;
-    width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  border: 2px solid red;
+  height: 90%;
+  width: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-bottom: 2.5vw;
+}
 
 .header {
   border: 2px solid red;
@@ -139,14 +212,53 @@ h1 {
 }*/
 
 #portrait {
-  max-width: 50vmin;
+  max-width: 27vw;
+  top: 3vw;
   height: auto;
+  display: block;
+  position: relative;
   float: left;
-  clear: left;
-  position: fixed;
+  margin-bottom: 7.1vw;
 }
 
+
 .textaboutme {
-  margin-left: 45%;
-  position: fixed;
+  border: 2px solid red;
+  display: block;
+  width: 44vw;
+  height: 38.5vw;
+  right: 5vw;
+  position: relative;
+  float: right;
+  margin-bottom: 7.1vw;
 }
+
+/*photo*/
+
+.slider {
+  border: 2px solid red;
+  display: block;
+  clear: both;
+  top: -20vw;
+  width: 25vw;
+  height: 40vw;
+  position: relative;
+  float: left;
+  }
+
+
+
+.work_work {
+  border: 2px solid red;
+  display: block;
+  clear: both;
+  top: -8.7vw;
+  width: 20vw;
+  height: 10vw;
+  left: 4vw;
+  position: relative;
+  float: left;
+  font-size: 10vmin;
+  font-weight: bold;
+  text-decoration: none;
+  }
