@@ -56,6 +56,25 @@ h1 {
     margin-bottom: 7.1vw;
     }
 
+    @keyframes logodown {
+      from {
+        opacity: 0;
+        transform: translate3d(0, -2000px, 0);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    .logodown {
+      animation-name: logodown;
+      animation-duration: 0.6s;
+      animation-fill-mode: both;
+    }
+
+
 .logo {
   border: 2px solid red;
   /*width: 250px;*/
@@ -68,6 +87,8 @@ h1 {
   position: relative;
   padding-top: inherit;
   padding-bottom: inherit;
+  animation-name: logoanimation;
+  animation-duration: 1s;
 }
 
 /* Nav*/
@@ -86,34 +107,61 @@ h1 {
 .nav_work {
   font-size: 7vmin;
   font-weight: 400;
-  position: absolute;
+  position: fixed;
   top: 45px;
   left: 1vw;
   transform: rotate(-90deg);
   text-decoration: none;
   color: #183C37;
+  z-index: 1;
 }
 
 .nav_me {
   font-size: 7vmin;
   font-weight: 400;
-  position: absolute;
-  top: 45px;
+  position: fixed;
+  top: 20px;
   left: 2vw;
   transform: rotate(-90deg);
   text-decoration: none;
   color: #183C37;
+  z-index: 1;
 }
 
 .nav_contact {
   font-size: 7vmin;
   font-weight: 400;
-  position: absolute;
+  position: fixed;
   bottom: 6vw;
   right: 0px;
   transform: rotate(90deg);
   text-decoration: none;
   color: #183C37;
+  z-index: 1;
+}
+
+.nav_work_contactsite {
+  font-size: 7vmin;
+  font-weight: 400;
+  position: fixed;
+  bottom: 4vw;
+  right: 1.5vw;
+  transform: rotate(90deg);
+  text-decoration: none;
+  color: #183C37;
+  z-index: 1;
+}
+
+.nav_me_contactsite {
+  font-size: 7vmin;
+  font-weight: 400;
+  position: fixed;
+  top: 20px;
+  left: 2vw;
+  transform: rotate(-90deg);
+  text-decoration: none;
+  color: #183C37;
+  z-index: 1;
 }
 
 .me_home {
@@ -170,7 +218,7 @@ h1 {
   float: right;
   clear: both;
   font-size: 10vmin;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
   list-style-type: none;
   }
@@ -196,6 +244,18 @@ h1 {
   height: 80px;
 }
 
+/*contact*/
+
+.letswork {
+  border: 2px solid red;
+  top: 8vw;
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 10vmin;
+  font-weight: 500;
+  }
+
 /* Me*/
 
 .me_sec {
@@ -212,7 +272,7 @@ h1 {
 }*/
 
 #portrait {
-  max-width: 27vw;
+  max-width: 26vw;
   top: 3vw;
   height: auto;
   display: block;
@@ -231,6 +291,7 @@ h1 {
   position: relative;
   float: right;
   margin-bottom: 7.1vw;
+  padding: 5px;
 }
 
 /*photo*/
@@ -240,12 +301,62 @@ h1 {
   display: block;
   clear: both;
   top: -20vw;
-  width: 25vw;
-  height: 40vw;
+  width: 40vw;
+  height: 25vw;
   position: relative;
   float: left;
   }
 
+.sliderimgarch {
+  border: 2px solid red;
+  display: block;
+  clear: both;
+  padding: 5px;
+  top: -20vw;
+  width: 40vw;
+  height: auto;
+  position: relative;
+  float: left;
+  }
+
+  /*.sliderimgfashion {
+    border: 2px solid red;
+    display: block;
+    clear: both;
+    padding: 5px;
+    top: -20vw;
+    width: 40vw;
+    height: auto;
+    position: relative;
+    float: left;
+    }*/
+
+
+.photo_categories {
+  border: 2px solid red;
+  top: 5vw;
+  width: 44vw;
+  height: 30vw;
+  right: 3.5vw;
+  position: relative;
+  float: right;
+  clear: both;
+  font-size: 10vmin;
+  font-weight: 600;
+  }
+
+  #arch {
+    border: 2px solid red;
+    top: 5vw;
+    width: 44vw;
+    height: 30vw;
+    right: 3.5vw;
+    position: relative;
+    float: right;
+    clear: both;
+    font-size: 10vmin;
+    font-weight: 400;
+    }
 
 
 .work_work {
@@ -262,3 +373,14 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   }
+
+/*  $(function() {
+
+      $(window).scroll(function () {
+          if ($(this).scrollDown() >100) {
+              $('.photo_categories').html('architecture');
+          } else {
+              $(".photo_categories").html('Yes');
+          }
+      });
+  });*/
