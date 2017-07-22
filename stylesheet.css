@@ -75,6 +75,24 @@ h1 {
       animation-fill-mode: both;
     }
 
+    @keyframes fade {
+      from {
+        opacity: 0;
+        transform:(0, -2000px, 0);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    .fade {
+      animation-name: fade;
+      animation-duration: 0.8s;
+      animation-fill-mode: both;
+    }
+
 
 .logo {
   border: 2px solid red;
@@ -92,6 +110,10 @@ h1 {
   animation-duration: 1s;
 }
 
+.icon {
+  height: 1px;
+  width: auto;
+}
 /* Nav*/
 
 .logo_small {
@@ -234,7 +256,7 @@ h1 {
   border: 2px solid red;
   display: block;
   clear: both;
-  top: 14vw;
+  top: 11.2vw;
   width: 20vw;
   height: 10vw;
   left: 4vw;
@@ -318,10 +340,8 @@ h1 {
   margin-bottom: 7.1vw;
 }
 
-
 .textaboutme {
   border: 2px solid red;
-  display: block;
   width: 44vw;
   height: 36.5vw;
   right: 5vw;
@@ -353,6 +373,7 @@ h1 {
   height: auto;
   position: relative;
   float: left;
+  display: block;
   }
 
   /*.sliderimgfashion {
