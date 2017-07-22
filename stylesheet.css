@@ -104,6 +104,42 @@ h1 {
   padding-bottom: inherit;
 }
 
+.logo_instagram {
+  border: 2px solid red;
+  width: 37px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-right: 7px;
+  float: right;
+  position: relative;
+}
+
+.logo_fb {
+  border: 2px solid red;
+  width: 37px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-right: 7px;
+  float: right;
+  position: relative;
+}
+
+.logo_behance {
+  border: 2px solid red;
+  width: 37px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 32px;
+  float: right;
+  position: relative;
+}
+
+
 .nav_work {
   font-size: 7vmin;
   font-weight: 400;
@@ -286,11 +322,10 @@ h1 {
   border: 2px solid red;
   display: block;
   width: 44vw;
-  height: 38.5vw;
+  height: 36.5vw;
   right: 5vw;
   position: relative;
   float: right;
-  margin-bottom: 7.1vw;
   padding: 5px;
 }
 
@@ -343,6 +378,7 @@ h1 {
   clear: both;
   font-size: 10vmin;
   font-weight: 600;
+  z-index: 1;
   }
 
   #arch {
