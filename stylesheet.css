@@ -31,7 +31,6 @@ h1 {
   /*font-size: 100pt;*/
   font-weight: 500;
   color: #1f1f1f;
-  /*border: 2px solid red;*/
   display: block;
   top: 10vw;
   position: relative;
@@ -48,7 +47,7 @@ h1 {
 } */
 
 .content_start {
-    /*border: 2px solid red;*/
+    border: 2px;
     height: 95%;
     width: auto;
     margin-left: 15px;
@@ -95,7 +94,7 @@ h1 {
 
 
 .logo {
-  /*border: 2px solid red;*/
+  border: 2px;
   /*width: 250px;*/
   width: 30vmin;
   height: auto;
@@ -117,7 +116,7 @@ h1 {
 /* Nav*/
 
 .logo_small {
-  /*border: 2px solid red;*/
+  border: 2px;
   width: 45px;
   height: auto;
   margin-left: auto;
@@ -128,36 +127,36 @@ h1 {
 }
 
 .logo_instagram {
-  /*border: 2px solid red;*/
+  border: 2px;
   width: 37px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 25px;
-  padding-right: 7px;
+  padding-top: 27px;
+  padding-right: 3px;
   float: right;
   position: relative;
 }
 
 .logo_fb {
-  /*border: 2px solid red;*/
-  width: 37px;
+  border: 2px;
+  width: 41px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 25px;
-  padding-right: 7px;
+  padding-top: 22px;
+  padding-right: 15px;
   float: right;
   position: relative;
 }
 
 .logo_behance {
-  /*border: 2px solid red;*/
-  width: 37px;
+  border: 2px;
+  width: 53px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 32px;
+  padding-top: 18.5px;
   float: right;
   position: relative;
 }
@@ -224,7 +223,7 @@ h1 {
 }
 
 .me_home {
-    /*border: 2px solid red;*/
+    border: 2px;
     display: block;
     top: 4vw;
     width: 44vw;
@@ -238,7 +237,7 @@ h1 {
   }
 
 .contact_home {
-  /*border: 2px solid red;*/
+  border: 2px;
   display: block;
   clear: both;
   width: 20vw;
@@ -253,7 +252,7 @@ h1 {
 }
 
 .work_home {
-  /*border: 2px solid red;*/
+  border: 2px;
   display: block;
   clear: both;
   top: 11.2vw;
@@ -268,7 +267,7 @@ h1 {
 }
 
 .work_categories {
-  /*border: 2px solid red;*/
+  border: 2px;
   top: 5vw;
   width: 44vw;
   height: 30vw;
@@ -285,7 +284,7 @@ h1 {
 /* Home*/
 
 .content_home {
-  /*border: 2px solid red;*/
+  border: 2px;
   height: 90%;
   width: auto;
   margin-left: 15px;
@@ -298,7 +297,7 @@ h1 {
 }
 
 .header {
-  /*border: 2px solid red;*/
+  border: 2px;
   width: 100%;
   height: 80px;
 }
@@ -306,7 +305,7 @@ h1 {
 /*contact*/
 
 .letswork {
-  /*border: 2px solid red;*/
+  border: 2px;
   top: 8vw;
   width: 100%;
   height: auto;
@@ -318,13 +317,13 @@ h1 {
 /* Me*/
 
 .me_sec {
-  /*border: 2px solid red;*/
+  border: 2px;
   width: 60%;
   margin: 500px
 }
 
 /*#me {
-  /*border: 2px solid red;*/
+  border: 2px;
   text-align: center;
   position: relative;
   height: 25%;
@@ -341,7 +340,7 @@ h1 {
 }
 
 .textaboutme {
-  /*border: 2px solid red;*/
+  border: 2px;
   width: 44vw;
   height: 36.5vw;
   right: 5vw;
@@ -353,7 +352,7 @@ h1 {
 /*photo*/
 
 .slider {
-  /*border: 2px solid red;*/
+  border: 2px;
   display: block;
   clear: both;
   top: -20vw;
@@ -364,7 +363,7 @@ h1 {
   }
 
 .sliderimgarch {
-  /*border: 2px solid red;*/
+  border: 2px;
   display: block;
   clear: both;
   padding: 5px;
@@ -377,7 +376,7 @@ h1 {
   }
 
   /*.sliderimgfashion {
-    /*border: 2px solid red;*/
+    border: 2px;
     display: block;
     clear: both;
     padding: 5px;
@@ -390,7 +389,7 @@ h1 {
 
 
 .photo_categories {
-  /*border: 2px solid red;*/
+  border: 2px;
   top: 5vw;
   width: 44vw;
   height: 30vw;
@@ -404,7 +403,7 @@ h1 {
   }
 
   #arch {
-    /*border: 2px solid red;*/
+    border: 2px;
     top: 5vw;
     width: 44vw;
     height: 30vw;
@@ -418,7 +417,7 @@ h1 {
 
 
 .work_work {
-  /*border: 2px solid red;*/
+  border: 2px;
   display: block;
   clear: both;
   top: -8.7vw;
